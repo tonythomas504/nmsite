@@ -1,0 +1,33 @@
+.navbar_layout {
+    position: fixed;
+    margin: 0;
+    padding: 5px;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #032a4a;
+
+}
+
+.navbar_layout li a {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffb800;
+}
+
+.navbar_layout li a:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.navbar_layout li {
+    border-bottom: 3px solid #032a4a;
+}

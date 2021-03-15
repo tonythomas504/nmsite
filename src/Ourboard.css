@@ -1,0 +1,57 @@
+.head {
+    padding:0;
+    margin: 0;
+    background-color: #ffb800;
+    height: 100vh;
+}
+.header {
+    text-decoration: underline;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+
+}
+
+.ourboard {
+    /* background-color: #ffb800;
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding-inline: 80px;
+    padding-top: 75px;
+}
+
+.image {
+    height: 250px;
+    width: auto;
+}
+
+.david > h3 {
+    color: #032a4a;
+}
+.david > p {
+
+    padding-left: 33px;
+}
+
+.kenyata > h3 {
+    color: #032a4a;
+}
+
+.kenyata > p {
+    padding-left: 50px;
+}
+
+.matthew > h3 {
+        color: #032a4a;
+}
+
+.matthew > p {
+    padding-left: 33px;
+}

@@ -1,0 +1,66 @@
+.how {
+    background-color: #ffb800;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.how img {
+    height: 570px;
+    /* left: 19%;
+    margin-top: -125px;
+    margin-left: -125px;
+    position: absolute;
+    top: 36%; */
+    width: auto;
+}
+
+.how_text {
+    height: 570px;
+    width: 450px;
+    background-color: #BFD7EA;
+    color: black;
+    align-content: center;
+}
+
+.how_text > h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.how_paragraph {
+    padding: 15px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+
+/* .howToApply {
+    background-color: #ffb800;
+    height: 100vh;
+    text-align: center;
+    padding: 38px;
+}
+
+.apply_text > h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.apply_text > h4 {
+    font-size: 18px;
+    text-align: center;
+    border: 5px solid #032a4a;
+    padding: 30px;
+}
+
+.how_image {
+        height: auto;
+        width: 300px;
+        padding-left: 40px;
+} */
