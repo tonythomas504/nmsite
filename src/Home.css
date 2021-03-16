@@ -3,13 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @media only screen 
+    /* @media only screen 
     and (min-device-width: 375px) 
     and (max-device-width: 812px) 
     and (-webkit-min-device-pixel-ratio: 3) { 
      height: 100vh;
      width: auto;
-    }
+    } */
 }
 
 
@@ -21,14 +21,14 @@
     position: absolute;
     top: 36%; */
     width: 570px;
-    @media only screen 
+    /* @media only screen 
     and (min-device-width: 375px) 
     and (max-device-width: 812px) 
     and (-webkit-min-device-pixel-ratio: 3) {
         height: auto;
         max-width: 200px;
         width:100px;
-    }
+    } */
 }
 
 .home_text {
@@ -37,7 +37,7 @@
     background-color: #BFD7EA;
     color: black;
     align-content: center;
-    @media only screen 
+    /* @media only screen 
     and (min-device-width: 375px) 
     and (max-device-width: 812px) 
     and (-webkit-min-device-pixel-ratio: 3) { 
@@ -47,7 +47,7 @@
      overflow-y: auto;
      padding: 10px;
      width: 100px;
-    }
+    } */
 }
 
 .home_text > h1 {
