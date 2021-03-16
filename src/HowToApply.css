@@ -4,9 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
 
 
@@ -18,9 +15,6 @@
     position: absolute;
     top: 36%; */
     width: auto;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
 
 .how_text {
@@ -29,27 +23,19 @@
     background-color: #BFD7EA;
     color: black;
     align-content: center;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
 
 .how_text > h1 {
     text-align: center;
     font-size: 50px;
     text-decoration: underline;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
 
 .how_paragraph {
     padding: 15px;
     font-size: 23px;
     font-weight: 500;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
+
 }
 
 
