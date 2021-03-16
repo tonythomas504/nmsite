@@ -8,6 +8,10 @@
     and (max-device-width: 812px) 
     and (-webkit-min-device-pixel-ratio: 3) { 
      height: 100vh;
+     display: flex;
+     overflow-x: auto;
+     white-space: nowrap;
+     padding: 10px;
     }
 }
 
