@@ -1,12 +1,8 @@
 .home {
-    background-color: linear-gradient(#ffb800 50%, #032a4a 50%);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
 
 
@@ -26,9 +22,6 @@
     background-color: #BFD7EA;
     color: black;
     align-content: center;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
 
 .home_text > h1 {
@@ -41,7 +34,4 @@
     padding: 15px;
     font-size: 23px;
     font-weight: 500;
-    @media only screen and (min-width : 768px) {
-        width: 50%;
-    }
 }
