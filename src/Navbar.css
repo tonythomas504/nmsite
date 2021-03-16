@@ -10,7 +10,9 @@
     justify-content: space-evenly;
     list-style: none;
     background-color: #032a4a;
-
+    @media only screen and (min-width : 768px) {
+        width: 50%;
+    }
 }
 
 .navbar_layout li a {
