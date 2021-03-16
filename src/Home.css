@@ -7,11 +7,12 @@
     and (min-device-width: 375px) 
     and (max-device-width: 812px) 
     and (-webkit-min-device-pixel-ratio: 3) { 
-     height: 100vh;
+     height: auto;
      display: flex;
      overflow-x: auto;
      white-space: nowrap;
      padding: 10px;
+     width: auto;
     }
 }
 
@@ -32,6 +33,17 @@
     background-color: #BFD7EA;
     color: black;
     align-content: center;
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+     height: auto;
+     display: flex;
+     overflow-x: auto;
+     overflow-y: auto;
+     padding: 10px;
+     width: 100px;
+    }
 }
 
 .home_text > h1 {
